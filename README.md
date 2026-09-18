@@ -1,37 +1,33 @@
 ﻿# Fellowship Launcher
 
-Valheim-Launcher für unsere Spielrunde, mit getrennten Modprofilen und automatischen Launcher-Updates.
+Valheim-Launcher für unsere Spielrunde, mit getrennten Modprofilen, Mod-Updates und automatischen Launcher-Updates.
 
 ## Installation
 
 [Neueste Launcher-Version herunterladen](https://github.com/Szariel/fellowship-valheim/releases/latest)
 
-Das Setup installieren, Steam starten und den Valheim-Spielordner im Launcher auswählen, falls er nicht automatisch gefunden wird.
+Setup installieren, Steam starten und den Valheim-Spielordner auswählen, falls er nicht automatisch gefunden wird. Für Updates pro Mod wird mindestens Launcher 0.7.0 benötigt.
 
-## Vanilla+
+## Vanilla+ und ATM
 
-Das öffentliche Vanilla+-Paket wird über den Launcher synchronisiert. Mods und Configs bleiben in einem separaten Profil; die Steam-Spielinstallation wird nicht verändert.
+Vanilla+ ist öffentlich verfügbar. ATM wird ausschließlich über das getrennte private Repository an den berechtigten Freundeskreis verteilt. Dieses öffentliche Repository enthält weder ATM-Mods noch einen Zugangsschlüssel.
 
-## ATM – privater Freundeskreis
+Für ATM einmal unter Einstellungen den privat erhaltenen Zugangscode einfügen und Freischalten drücken. Mitspieler brauchen kein GitHub-Konto. Windows speichert den Code benutzergebunden verschlüsselt. Bereits installierte Pakete lassen sich ohne hinterlegten Code lokal starten; Downloads und Updates erfordern Zugang.
 
-ATM wird ausschließlich über ein separates privates Repository verteilt. Dieses öffentliche Repository enthält weder das ATM-Paket noch einen Zugangsschlüssel.
+Mods und Configs bleiben in getrennten Profilen außerhalb der Steam-Spielinstallation. Spielstände verwaltet weiterhin Valheim. ATM ist ein Testpack: Start und Weltladen wurden geprüft, einzelne Mod-Funktionen benötigen weitere Spieltests.
 
-1. Den ATM-Zugangscode vom Gastgeber privat erhalten.
-2. Im Launcher ATM > Einstellungen öffnen, Code einfügen und Freischalten drücken.
-3. Abgleichen oder starten.
+## Updates pro Mod
 
-Mitspieler brauchen kein eigenes GitHub-Konto. Der Code wird unter Windows für das jeweilige Benutzerkonto verschlüsselt gespeichert. Wer den Code besitzt, kann das Paket herunterladen; deshalb nur innerhalb der berechtigten Spielrunde weitergeben. Bereits installierte Pakete können auch ohne hinterlegten Code lokal gestartet werden. Erstinstallation und Updates erfordern Zugang.
+Der Launcher vergleicht die lokalen Dateien mit dem aktuellen Katalog und lädt nur neue, geänderte oder beschädigte Mod-Pakete. Bereits vorhandene ZIP-Installationen werden erkannt. Unveränderte Mods benötigen keinen neuen Download. Entfernte Mods werden aus dem aktiven Profil entfernt.
 
-Der ATM-Stand ist derzeit ein Testpaket; Start- und Welttests sind noch erforderlich.
+Alle Downloads werden per SHA-256 geprüft. Erst danach wird das neue Profil aktiviert; fehlgeschlagene oder abgebrochene Downloads lassen das bisherige Profil bestehen. Ein Cache vermeidet wiederholte Downloads.
 
-## Eigene Einstellungen und Grafik
+Persönlich freigegebene Einstellungen bleiben erhalten. Gemeinsame Gameplay-Configs folgen den Pack-Vorgaben. Vanilla+ und ATM haben getrennte Configs.
 
-Persönliche Einstellungen der unterstützten UI- und Komfort-Mods bleiben beim Abgleich erhalten. Vanilla+ und ATM haben getrennte Configs.
+Der Launcher prüft beim Start außerdem auf neue Launcher-Versionen. Die Installation erfolgt nach dem gewählten Neustart. Spielstände werden nicht synchronisiert.
 
-Valtex Filter und HD Textures sind optional. Beide Profile verwenden einen gemeinsamen Cache. Die Valtex-Originaldateien werden bei Bedarf über Nexus bezogen und sind nicht in den öffentlichen Releases enthalten.
+## Optionale Grafik
 
-## Updates
-
-Der Launcher prüft beim Start auf neue Versionen. Eine heruntergeladene Launcher-Version wird erst nach dem gewählten Neustart installiert. Spielstände werden nicht synchronisiert.
+Valtex Filter und HD Textures sind optional. Beide Profile verwenden einen gemeinsamen Cache. Die Originaldateien werden bei Bedarf über Nexus bezogen und gehören nicht zu den hier veröffentlichten Mod-Paketen.
 
 Windows x64 / Steam. Inoffizieller Launcher; nicht digital signiert. Alle Mods und Grafiken gehören ihren jeweiligen Autoren.
