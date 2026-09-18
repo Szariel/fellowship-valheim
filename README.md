@@ -1,27 +1,37 @@
-# Fellowship Launcher
+﻿# Fellowship Launcher
 
-[Aktuellen Launcher herunterladen](https://github.com/Szariel/fellowship-valheim/releases/latest)
+Valheim-Launcher für unsere Spielrunde, mit getrennten Modprofilen und automatischen Launcher-Updates.
 
-## Vanilla+ und AOM
+## Installation
 
-Zwei Tabs oben im Launcher, in Norse Bold mit rotgoldener Markierung für das aktive Paket.
+[Neueste Launcher-Version herunterladen](https://github.com/Szariel/fellowship-valheim/releases/latest)
 
-- **Vanilla+**: euer bisheriges Profil, unverändert weiterverwendet.
-- **AOM**: eigenes Modprofil, eigene Configs, eigener Download-Link und eigener Startordner. Das Paket ist vorbereitet, aber noch nicht veröffentlicht.
-- Abgleichen, Start, Modliste, Import/Export und Logs beziehen sich auf den gewählten Tab.
-- Die Auswahl wird gespeichert. Während laufender Vorgänge ist ein Wechsel gesperrt.
-- Persönliche Einstellungen bleiben innerhalb des jeweiligen Profils erhalten.
+Das Setup installieren, Steam starten und den Valheim-Spielordner im Launcher auswählen, falls er nicht automatisch gefunden wird.
 
-Bestehende Nutzer können das automatische Launcher-Update übernehmen. Neue Nutzer installieren das Setup und tragen im Vanilla+-Tab bei Bedarf diesen Modpaket-Link ein:
-https://github.com/Szariel/fellowship-valheim/releases/latest/download/Fellowship-Modpack.zip
+## Vanilla+
 
-AOM ist für diese spätere Datei vorbereitet:
-https://github.com/Szariel/fellowship-valheim/releases/latest/download/Fellowship-AOM-Modpack.zip
+Das öffentliche Vanilla+-Paket wird über den Launcher synchronisiert. Mods und Configs bleiben in einem separaten Profil; die Steam-Spielinstallation wird nicht verändert.
 
-Bis das AOM-Paket erscheint, zeigt Abgleichen/Start eine entsprechende Meldung. Es startet nicht ersatzweise Vanilla+.
+## ATM – privater Freundeskreis
 
-Das aktuelle Vanilla+-Modpaket bleibt unverändert enthalten. Spielstände sind weiterhin gemeinsam von Valheim verwaltet, nicht pro Tab isoliert.
+ATM wird ausschließlich über ein separates privates Repository verteilt. Dieses öffentliche Repository enthält weder das ATM-Paket noch einen Zugangsschlüssel.
 
-Prüfung: 22 automatisierte Tests bestanden; beide Tabs, getrennte Profile/Downloadquellen, Wechsel zurück zum bisherigen Profil und Darstellung visuell geprüft. Windows x64 / Steam, nicht digital signiert.
+1. Den ATM-Zugangscode vom Gastgeber privat erhalten.
+2. Im Launcher ATM > Einstellungen öffnen, Code einfügen und Freischalten drücken.
+3. Abgleichen oder starten.
 
-Schrift: Norse Bold von Joël Carrouché, gemäß Lizenz in die Anwendung eingebettet.
+Mitspieler brauchen kein eigenes GitHub-Konto. Der Code wird unter Windows für das jeweilige Benutzerkonto verschlüsselt gespeichert. Wer den Code besitzt, kann das Paket herunterladen; deshalb nur innerhalb der berechtigten Spielrunde weitergeben. Bereits installierte Pakete können auch ohne hinterlegten Code lokal gestartet werden. Erstinstallation und Updates erfordern Zugang.
+
+Der ATM-Stand ist derzeit ein Testpaket; Start- und Welttests sind noch erforderlich.
+
+## Eigene Einstellungen und Grafik
+
+Persönliche Einstellungen der unterstützten UI- und Komfort-Mods bleiben beim Abgleich erhalten. Vanilla+ und ATM haben getrennte Configs.
+
+Valtex Filter und HD Textures sind optional. Beide Profile verwenden einen gemeinsamen Cache. Die Valtex-Originaldateien werden bei Bedarf über Nexus bezogen und sind nicht in den öffentlichen Releases enthalten.
+
+## Updates
+
+Der Launcher prüft beim Start auf neue Versionen. Eine heruntergeladene Launcher-Version wird erst nach dem gewählten Neustart installiert. Spielstände werden nicht synchronisiert.
+
+Windows x64 / Steam. Inoffizieller Launcher; nicht digital signiert. Alle Mods und Grafiken gehören ihren jeweiligen Autoren.
